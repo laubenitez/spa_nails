@@ -20,12 +20,6 @@ const ManicuristaSchema = new Schema(
       maxlength: [100, 'El nombre no puede exceder los 100 caracteres.'],
     },
 
-    apellido: {
-      type: String,
-      required: [true, 'El apellido es obligatorio.'],
-      trim: true,
-      maxlength: [100, 'El apellido no puede exceder los 100 caracteres.'],
-    },
 
     telefono: {
       type: String,
